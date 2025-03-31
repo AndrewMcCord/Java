@@ -1,0 +1,511 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ClockAnimation",
+            "request": "launch",
+            "mainClass": "ClockAnimation",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "AnimationDemo_Random",
+            "request": "launch",
+            "mainClass": "AnimationDemo_Random",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TicTacToeRandom",
+            "request": "launch",
+            "mainClass": "TicTacToeRandom",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "FourFansGrid",
+            "request": "launch",
+            "mainClass": "FourFansGrid",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "FanGrid",
+            "request": "launch",
+            "mainClass": "FanGrid",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "ParabolaGraph",
+            "request": "launch",
+            "mainClass": "ParabolaGraph",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "FanDrawing",
+            "request": "launch",
+            "mainClass": "FanDrawing",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Draggable1Components",
+            "request": "launch",
+            "mainClass": "Draggable1Components",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "DraggableComponents",
+            "request": "launch",
+            "mainClass": "DraggableComponents",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "ImageDisplay",
+            "request": "launch",
+            "mainClass": "ImageDisplay",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "BallMovement",
+            "request": "launch",
+            "mainClass": "BallMovement",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "ConcentricShapes",
+            "request": "launch",
+            "mainClass": "ConcentricShapes",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "CirclesAndSquares",
+            "request": "launch",
+            "mainClass": "CirclesAndSquares",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "oneRowGons",
+            "request": "launch",
+            "mainClass": "oneRowGons",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "olympics",
+            "request": "launch",
+            "mainClass": "olympics",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise16_4",
+            "request": "launch",
+            "mainClass": "Exercise16_4",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise12_10",
+            "request": "launch",
+            "mainClass": "Exercise12_10",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise12_10_2",
+            "request": "launch",
+            "mainClass": "Exercise12_10_2",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise12_10_1",
+            "request": "launch",
+            "mainClass": "Exercise12_10_1",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise12_9",
+            "request": "launch",
+            "mainClass": "Exercise12_9",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise12_8",
+            "request": "launch",
+            "mainClass": "Exercise12_8",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Image1Grid",
+            "request": "launch",
+            "mainClass": "Image1Grid",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "ImageGrid",
+            "request": "launch",
+            "mainClass": "ImageGrid",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "PentagramInCircle",
+            "request": "launch",
+            "mainClass": "PentagramInCircle",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "StarAndCircle",
+            "request": "launch",
+            "mainClass": "StarAndCircle",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "CircleSquarePairs",
+            "request": "launch",
+            "mainClass": "CircleSquarePairs",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TlcTacToeBoard",
+            "request": "launch",
+            "mainClass": "TlcTacToeBoard",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TicTacToeBoard",
+            "request": "launch",
+            "mainClass": "TicTacToeBoard",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "QuadraticFunctionGraph",
+            "request": "launch",
+            "mainClass": "QuadraticFunctionGraph",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW3NO4",
+            "request": "launch",
+            "mainClass": "HW3NO4",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW3N1",
+            "request": "launch",
+            "mainClass": "HW3N1",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW3N4",
+            "request": "launch",
+            "mainClass": "HW3N4",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW3N3",
+            "request": "launch",
+            "mainClass": "HW3N3",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW3N2",
+            "request": "launch",
+            "mainClass": "HW3N2",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "DetectSourceDemo",
+            "request": "launch",
+            "mainClass": "DetectSourceDemo",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "FrameAsListenerDemo",
+            "request": "launch",
+            "mainClass": "FrameAsListenerDemo",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HandleEvent",
+            "request": "launch",
+            "mainClass": "HandleEvent",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "RandomTicTacToe",
+            "request": "launch",
+            "mainClass": "RandomTicTacToe",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TestProgram",
+            "request": "launch",
+            "mainClass": "TestProgram",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "GridPanel",
+            "request": "launch",
+            "mainClass": "GridPanel",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Grid",
+            "request": "launch",
+            "mainClass": "Grid",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TestPaintComponent",
+            "request": "launch",
+            "mainClass": "TestPaintComponent",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW2N3",
+            "request": "launch",
+            "mainClass": "HW2N3",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW2N2",
+            "request": "launch",
+            "mainClass": "HW2N2",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "AnonymousListenerDemo",
+            "request": "launch",
+            "mainClass": "AnonymousListenerDemo",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "DisplayImage",
+            "request": "launch",
+            "mainClass": "DisplayImage",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "DisplayClock",
+            "request": "launch",
+            "mainClass": "DisplayClock",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "DisplayClock1",
+            "request": "launch",
+            "mainClass": "DisplayClock1",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW2N1",
+            "request": "launch",
+            "mainClass": "HW2N1",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "SixFlags1",
+            "request": "launch",
+            "mainClass": "SixFlags1",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TestMessagePanel",
+            "request": "launch",
+            "mainClass": "TestMessagePanel",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TestCenterMessage",
+            "request": "launch",
+            "mainClass": "TestCenterMessage",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "DrawPolygon",
+            "request": "launch",
+            "mainClass": "DrawPolygon",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "DrawArcs",
+            "request": "launch",
+            "mainClass": "DrawArcs",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TestFigurePanel",
+            "request": "launch",
+            "mainClass": "TestFigurePanel",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "BorderLayoutExample",
+            "request": "launch",
+            "mainClass": "BorderLayoutExample",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW14",
+            "request": "launch",
+            "mainClass": "HW14",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW13",
+            "request": "launch",
+            "mainClass": "HW13",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW12",
+            "request": "launch",
+            "mainClass": "HW12",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW1",
+            "request": "launch",
+            "mainClass": "HW1",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "HW1N2",
+            "request": "launch",
+            "mainClass": "HW1N2",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HW1N1",
+            "request": "launch",
+            "mainClass": "HW1N1",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "MyFrame",
+            "request": "launch",
+            "mainClass": "MyFrame",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "MyFrameWithComponents",
+            "request": "launch",
+            "mainClass": "MyFrameWithComponents",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "ShowBorderLayout",
+            "request": "launch",
+            "mainClass": "ShowBorderLayout",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "ShowFlowLayout",
+            "request": "launch",
+            "mainClass": "ShowFlowLayout",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "ShowGridLayout",
+            "request": "launch",
+            "mainClass": "ShowGridLayout",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TestImageIcon",
+            "request": "launch",
+            "mainClass": "TestImageIcon",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TestPanels",
+            "request": "launch",
+            "mainClass": "TestPanels",
+            "projectName": "Java_72a3818f"
+        },
+        {
+            "type": "java",
+            "name": "TestSwingCommonFeatures",
+            "request": "launch",
+            "mainClass": "TestSwingCommonFeatures",
+            "projectName": "Java_72a3818f"
+        }
+    ]
+}
