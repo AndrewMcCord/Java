@@ -11,7 +11,8 @@ public class PlanningSoftware {
      * Constructor
      */
     Public PlanningSoftware() {
-        Construct an empty AirportDatabase for portDbase;Construct an empty AirplaneDatabase for planeDbase;
+        Construct an empty AirportDatabase for portDbase;
+        Construct an empty AirplaneDatabase for planeDbase;
     }
 
     /*
@@ -23,12 +24,12 @@ public class PlanningSoftware {
      * @return: none
      */
  public void FlightPlanning(){
-           	Distance D;
+    Distance D;
 	Aerodrome a1;
-           	Longitude l1;
-           	Latitude l2;
-           	FuelCapacity FC;
-            RefuelRequirements RR;
+    Longitude l1;
+    Latitude l2;
+    FuelCapacity FC;
+    RefuelRequirements RR;
 	Airplane plane;
 	Airport port;
 	Airspeed AR;
@@ -125,18 +126,13 @@ public class PlanningSoftware {
         return distance;
     }
 
-    Print that
-    the fuel
-    is not enough for
-    two stations, please
-    enter the
-    refueling stop station;
+    Print that the fuel is not enough for two stations, please enter the refueling stop station;
     Int m, fuel_type;
 
 For (m = 0 to the size of the portDbase - 1) {
-    	Airport temp;
-    	Double angle;
-   	 Let temp be the element of portDbase at m;
+    Airport temp;
+    Double angle;
+   	Let temp be the element of portDbase at m;
 
     Call getAngle(s1.getLatitude(), s1.getLongitude(), temp.getLatitude(), temp.getLongitude());
     	Let angle be the return value;
@@ -154,13 +150,8 @@ For (m = 0 to the size of the portDbase - 1) {
                	 Return temp;
       	  }}}
 
-    print the
-    information to
-    show that
-    we can
-    not find
-    a suitable
-    refueling stop.Return null;
+    print the information to show that we can not find a suitable refueling stop.
+    Return null;
 
     /*
      * this method is to find the maximum distance that an Airplaneplane ap can fly
@@ -182,7 +173,7 @@ For (m = 0 to the size of the portDbase - 1) {
         call function getRealAirspeed(w,a.getAirspeed(),lat1,long1,lat2,long2);
         let real_airspeed be the return value of the above function;
 
-        call function getFuelCapacity()in the Airplane class;
+        call function getFuelCapacity() in the Airplane class;
 
     }
     /*
