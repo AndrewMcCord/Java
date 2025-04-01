@@ -179,7 +179,8 @@ For (m = 0 to the size of the portDbase - 1) {
     public double getMaxRangeOfAeroplane(Wind w, Aeroplane a, double lat1, double long1, double lat2, double long2) {
         double max_distance,capacity,burn_rate;double time;double real_airspeed;
 
-        call function getRealAirspeed(w,a.getAirspeed(),lat1,long1,lat2,long2);let real_airspeed be the return value of the above function;
+        call function getRealAirspeed(w,a.getAirspeed(),lat1,long1,lat2,long2);
+        let real_airspeed be the return value of the above function;
 
         call function getFuelCapacity()in the Airplane class;
 
@@ -201,7 +202,8 @@ For (m = 0 to the size of the portDbase - 1) {
     Public
 
     double calculateHeading(double airspeed, double lat1, double long1, double lat2, double long2) {
-        Double angle;Let angle be the result of the formula:Heading=arctan⁡(sin⁡(Δlong)⋅cos⁡(lat2)/cos⁡(lat1)⋅sin⁡(lat2)−sin⁡(lat1)⋅cos⁡(lat2)⋅cos⁡(Δlong))Return angle;
+        Double angle;
+        Let angle be the result of the formula:Heading=arctan⁡(sin⁡(Δlong)⋅cos⁡(lat2)/cos⁡(lat1)⋅sin⁡(lat2)−sin⁡(lat1)⋅cos⁡(lat2)⋅cos⁡(Δlong))Return angle;
     }
 
     /* User class */
@@ -360,7 +362,12 @@ send submission to UserDatabase and display results;
     }
 
     public void searchAirport() {
-        Insert GUI dropdown menu displaying airport elements;Insert GUI textbox for manual search input;send query to database;summarize closest matching element selected between dropdown and text input;Send summary to variable x;Display GUI popup with results=x;
+        Insert GUI dropdown menu displaying airport elements;
+        Insert GUI textbox for manual search input;
+        send query to database;
+        summarize closest matching element selected between dropdown and text input;
+        Send summary to variable x;
+        Display GUI popup with results=x;
     }
 
     public void modifyAirport() {
@@ -560,31 +567,57 @@ class Airplane {
     /* This function is used to create an Airplane object with default values */
 
     public void setMake() {
-        string input;prompt user input for airplane make;input=JOptionPane("What is the Make?");let input be the user response;Assign input to Make;
+        string input;
+        prompt user input for airplane make;
+        input=JOptionPane("What is the Make?");
+        let input be the user response;Assign input to Make;
     }
 
     public void setModel() {
-        string input;prompt user input for airplane model;input=JOptionPane("What is the Model?");let input be the user response;Assign input to Model;
+        string input;
+        prompt user input for airplane model;
+        input=JOptionPane("What is the Model?");
+        let input be the user response;Assign input to Model;
     }
 
     public void setAircraftType() {
-        string input;prompt user input for aircraft type;input=JOptionPane("What is the Aircraft Type?");let input be the user response;Assign input to AircraftType;
+        string input;
+        prompt user input for aircraft type;
+        input=JOptionPane("What is the Aircraft Type?");
+        let input be the user response;
+        Assign input to AircraftType;
     }
 
     public void setFuelSize() {
-        double input;prompt user input for fuel size;input=JOptionPane("What is the fuel size?");let input be the user response;Assign input to FuelSize;
+        double input;
+        prompt user input for fuel size;
+        input=JOptionPane("What is the fuel size?");
+        let input be the user response;
+        Assign input to FuelSize;
     }
 
     public void setFuel() {
-        string input;prompt user input for fuel type;input=JOptionPane("What is the fuel type?");let input be the user response;Assign input to Fuel;
+        string input;
+        prompt user input for fuel type;
+        input=JOptionPane("What is the fuel type?");
+        let input be the user response;
+        Assign input to Fuel;
     }
 
     public void setFuelBurn() {
-        double input;prompt user input for fuel burn rate;input=JOptionPane("What is the fuel burn rate?");let input be the user response;Assign input to FuelBurn;
+        double input;
+        prompt user input for fuel burn rate;
+        input=JOptionPane("What is the fuel burn rate?");
+        let input be the user response;
+        Assign input to FuelBurn;
     }
 
     public void setAirSpeed() {
-        int input;prompt user input for airspeed;input=JOptionPane("What is the airspeed?");let input be the user response;Assign input to Airspeed;
+        int input;
+        prompt user input for airspeed;
+        input=JOptionPane("What is the airspeed?");
+        let input be the user response;
+        Assign input to Airspeed;
     }
 
     public string getMake() {
@@ -677,33 +710,58 @@ class Airport {
     /* This function is used to create an Airport object with default values */
 
     public void setNameAirport() {
-        string input;prompt user input for airport name;input=JOptionPane("What is the Airport Name?");let input be the user response;Assign input to NameOfAirport;
+        string input;
+        prompt user input for airport name;
+        input=JOptionPane("What is the Airport Name?");
+        let input be the user response;Assign input to NameOfAirport;
     }
 
     public void setICAOIdentifier() {
-        string input;prompt user input for ICAO Identifier;input=JOptionPane("What is the ICAOIdentifier?");let input be the user response;Assign input to ICAOIdentifier;
+        string input;
+        prompt user input for ICAO Identifier;
+        input=JOptionPane("What is the ICAOIdentifier?");
+        let input be the user response;
+        Assign input to ICAOIdentifier;
     }
 
     public void setLongitude() {
-        float input;prompt user input for longitude;input=JOptionPane("What is the longitude?");let input be the user response;Assign input to Longitude;
+        float input;
+        prompt user input for longitude;
+        input=JOptionPane("What is the longitude?");
+        let input be the user response;
+        Assign input to Longitude;
     }
 
     public void setLatitude() {
         float input;
         // prompt user input for latitude;
-        input=JOptionPane("What is the latitude?");let input be the user response;Assign input to Latitude;
+        input=JOptionPane("What is the latitude?");
+        let input be the user response;
+        Assign input to Latitude;
     }
 
     public void setRadioFrequency() {
-        float input;prompt user input for radio frequency;input=JOptionPane("What is the radio frequency?");let input be the user response;Assign input to RadioFrequency;
+        float input;
+        prompt user input for radio frequency;
+        input=JOptionPane("What is the radio frequency?");
+        let input be the user response;
+        Assign input to RadioFrequency;
     }
 
     public void setRadioType() {
-        string input;prompt user input for radio type;input=JOptionPane("What is the radio type?");let input be the user response;Assign input to RadioType;
+        string input;
+        prompt user input for radio type;
+        input=JOptionPane("What is the radio type?");
+        let input be the user response;
+        Assign input to RadioType;
     }
 
     public void setFuelTypes() {
-        string input;prompt user input for fuel types;input=JOptionPane("What is the fuel type?");let input be the user response;Assign input to FuelTypes;
+        string input;
+        prompt user input for fuel types;
+        input=JOptionPane("What is the fuel type?");
+        let input be the user response;
+        Assign input to FuelTypes;
     }
 
     public string getFuelTypes() {
